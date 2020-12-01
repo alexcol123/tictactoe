@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
+import Board from './components/Board';
 
-const App = ()=>{
-  return(
-    <>
-    <h1>Welcome to  react parcess micro</h1>
-    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, dolorum?</h2>
-    </>
-  )
-}
+const App = () => {
+  return (
+    <div>
+      <h1>TIC TAC TOE</h1>
+      <Board />
+    </div>
+  );
+};
 
 export default App;
